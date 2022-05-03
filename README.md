@@ -1,5 +1,5 @@
 # imagic
-Image forensic python script that uses Exiv2 to get Exif Data
+A python script to help with image forensics. The script auto downloads images, gets EXIF Data and creates a report.
 
 ### Background and Motivation
 This project builds on the contributions of [@abhigoya](https://auth.geeksforgeeks.org/user/abhigoya), [@ruhelaa48](https://auth.geeksforgeeks.org/user/ruhelaa48) on [GeeksforGeeks](https://www.geeksforgeeks.org/how-to-download-all-images-from-a-web-page-in-python/), which served as the starting point. [Exvi2](https://www.kali.org/tools/exiv2/), a C++ library and a command line utility to manage image metadata. It provides fast and easy read and write access to the EXIF, IPTC and XMP metadata of images in various formats. Special acknowledgement to [@Ray M](https://github.com/crim3hound) for answering my problem broadcast and working on a solution.
